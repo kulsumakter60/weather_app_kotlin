@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible">
+
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="0dp"
@@ -19,12 +20,14 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/city"
             android:minHeight="48dp"
             app:layout_constraintEnd_toStartOf="@+id/bSearch"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="SpeakableTextPresentCheck"
-            android:drawSelectorOnTop="true"
+
             />
 
         <Button
